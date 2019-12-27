@@ -18,9 +18,10 @@ class Scraper
   end
   
   def get_page 
-    
+    doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
     
   end 
+  binding.pry 
   
 end
 
